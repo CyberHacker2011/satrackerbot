@@ -28,6 +28,7 @@ cp .env.example .env
 ```
 
 Required environment variables:
+
 - `TELEGRAM_BOT_TOKEN`: Get from [@BotFather](https://t.me/botfather)
 - `ADMIN_CHAT_ID`: Your Telegram user ID (admin)
 - `ADMIN_PASSWORD`: Password for admin access (default: `Hech_qaysi_1`)
@@ -41,6 +42,7 @@ Required environment variables:
 Create the following tables in your Supabase database:
 
 #### `telegram_users` table
+
 ```sql
 CREATE TABLE telegram_users (
   telegram_id BIGINT PRIMARY KEY,
@@ -52,6 +54,7 @@ CREATE TABLE telegram_users (
 ```
 
 #### `telegram_feedback` table
+
 ```sql
 CREATE TABLE telegram_feedback (
   id UUID PRIMARY KEY,
@@ -65,6 +68,7 @@ CREATE TABLE telegram_feedback (
 ```
 
 #### `telegram_premium_requests` table
+
 ```sql
 CREATE TABLE telegram_premium_requests (
   id UUID PRIMARY KEY,
@@ -105,17 +109,20 @@ pnpm start
 ## Usage Flow
 
 ### User Registration
+
 1. User starts bot with `/start`
 2. Bot requests email address
 3. User enters valid email and gets registered
 
 ### Feedback System
+
 1. User sends `/feedback`
 2. User writes their feedback message
 3. Admin receives anonymous feedback with user's email
 4. Admin can reply directly, and the message goes back to the user
 
 ### Premium Subscription
+
 1. User sends `/premium`
 2. Bot displays two plan options with prices
 3. User selects a plan
@@ -127,11 +134,11 @@ pnpm start
 
 ## Premium Plans
 
-- **1 Month**: 34,540 UZS
+- **1 Month**: 34 000 UZS
   - Unlimited Study Plans
   - Advanced Analytics
 
-- **3 Months**: 97,570 UZS (Best Offer)
+- **3 Months**: 87 000 UZS (Best Offer)
   - Everything in Monthly Plan
   - Price lock for future updates
 
@@ -181,4 +188,4 @@ satrackerbot/
 ## License
 
 ISC
-"# satrackerbot" 
+"# satrackerbot"

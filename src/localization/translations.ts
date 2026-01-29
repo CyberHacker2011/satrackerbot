@@ -36,11 +36,11 @@ export const translations: Record<Language, Record<string, string>> = {
     // Premium
     premium_title: "⭐ Premium Obuna Rejalari",
     premium_monthly:
-      "📅 Oylik Reja\n💰 34,540 so'm / oyiga\n\n✅ Cheksiz O'quv Rejalari\n✅ Kengaytirilgan Tahlillar",
+      "📅 Oylik Reja\n💰 34 000 so'm / oyiga\n\n✅ Cheksiz O'quv Rejalari\n✅ Kengaytirilgan Tahlillar",
     premium_quarterly:
-      "🎯 Choraklik Reja\n💰 97,570 so'm / 3 oy uchun\n\n✅ Oylik rejadagi barcha narsalar\n✅ Kelajakdagi yangiliklar uchun narxni saqlab qolish\n🏆 Eng Yaxshi Taklif",
-    btn_1month: "1 oy - 34,540 so'm",
-    btn_3month: "3 oy - 97,570 so'm",
+      "🎯 Choraklik Reja\n💰 87 000 so'm / 3 oy uchun\n\n✅ Oylik rejadagi barcha narsalar\n✅ Kelajakdagi yangiliklar uchun narxni saqlab qolish\n🏆 Eng Yaxshi Taklif",
+    btn_1month: "1 oy - 34 000 so'm",
+    btn_3month: "3 oy - 87 000 so'm",
 
     // Payment
     payment_card:
@@ -127,11 +127,11 @@ export const translations: Record<Language, Record<string, string>> = {
     // Premium
     premium_title: "⭐ Premium Подписки",
     premium_monthly:
-      "📅 Месячный план\n💰 34,540 сум / месяц\n\n✅ Безлимитные учебные планы\n✅ Расширенная аналитика",
+      "📅 Месячный план\n💰 34 000 сум / месяц\n\n✅ Безлимитные учебные планы\n✅ Расширенная аналитика",
     premium_quarterly:
-      "🎯 Quarterly План\n💰 97,570 сум / 3 месяца\n\n✅ Все из месячного плана\n✅ Сохранение цены на будущие обновления\n🏆 Лучшее предложение",
-    btn_1month: "1 месяц - 34,540 сум",
-    btn_3month: "3 месяца - 97,570 сум",
+      "🎯 Quarterly План\n💰 87 000 сум / 3 месяца\n\n✅ Все из месячного плана\n✅ Сохранение цены на будущие обновления\n🏆 Лучшее предложение",
+    btn_1month: "1 месяц - 34 000 сум",
+    btn_3month: "3 месяца - 87 000 сум",
 
     // Payment
     payment_card:
@@ -219,11 +219,11 @@ export const translations: Record<Language, Record<string, string>> = {
     // Premium
     premium_title: "⭐ Premium Subscription Plans",
     premium_monthly:
-      "📅 Monthly Plan\n💰 34,540 UZS / month\n\n✅ Unlimited Study Plans\n✅ Advanced Analytics",
+      "📅 Monthly Plan\n💰 34 000 UZS / month\n\n✅ Unlimited Study Plans\n✅ Advanced Analytics",
     premium_quarterly:
-      "🎯 Quarterly Plan\n💰 97,570 UZS / 3 months\n\n✅ Everything in Monthly Plan\n✅ Price lock for future updates\n🏆 Best Offer",
-    btn_1month: "1 month - 34,540 UZS",
-    btn_3month: "3 months - 97,570 UZS",
+      "🎯 Quarterly Plan\n💰 87 000 UZS / 3 months\n\n✅ Everything in Monthly Plan\n✅ Price lock for future updates\n🏆 Best Offer",
+    btn_1month: "1 month - 34 000 UZS",
+    btn_3month: "3 months - 87 000 UZS",
 
     // Payment
     payment_card:
